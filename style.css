@@ -1,0 +1,177 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+
+body { 
+		background-image: url(photos/campus.png);
+  		background-repeat: no-repeat;
+  		background-size: cover; 
+  		background-position: center;
+  		background-attachment: fixed;
+  		font-family: "Georgia", serif;
+  		font-weight: 400;
+  	}
+
+
+#main { 
+		background-color: rgba(255, 255, 255, 0.9);
+		margin: 40px auto;
+		padding: 20px;
+		border-radius: 10px;
+	}
+
+
+header p {
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 16px;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+h1 { color: #072b49;
+	 font-size: 40px;
+	 font-weight:700;
+	 text-align: center;
+	 margin-bottom: 5px;
+ }
+
+
+h2 {
+    background-color: #F2EFEA;
+    color: #072b49;
+    font-size: 18px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+p, a, label {
+    font-weight: 400;
+    color: #072b49;
+}
+
+a {
+    color: #587492;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+
+p {
+	line-height: 1.6;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+h3 {
+	color: #072b49;
+	font-size: 15px;
+	font-weight:400;
+	margin-top: 25px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.tagline {
+    background-color: transparent;
+    font-size: 16px;
+    color: #587492;
+    font-weight: normal;
+    letter-spacing: 4px;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.candidate {
+    margin-top: 0;
+    margin-bottom: 3px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+#review {
+	text-align: center;
+	border-top: 1px solid #587492;
+	padding-top:20px;
+	width: 98%;
+	margin: 35px auto 0;
+}
+
+.btn-primary {
+    background-color: #344f65;
+    border-color: #344f65;
+}
+
+.btn-primary:hover {
+    background-color: #587492;
+    border-color: #587492;
+}
+
+.btn-outline-secondary {
+    color: #344f65;
+    border-color: #344f65;
+}
+
+#review p {
+	margin-left:0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+footer p {
+    font-size: 15px;
+    letter-spacing: 4px;
+    color: #587492;
+    margin-bottom: 5px;
+}
+
+/* Bootstrap Component Customizations */
+
+.navbar {
+    background-color: #344f65;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: #F2EFEA;
+}
+
+.card-header h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.form-check-input:checked {
+    background-color: #344f65;
+    border-color: #344f65;
+}
+
+.alert-warning {
+    background-color: #F2EFEA;
+    border-color: #587492;
+    color: #072b49;
+}
+
+
+
+

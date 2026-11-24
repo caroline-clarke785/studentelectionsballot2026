@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="2026 Student Election Ballot">
+    <meta name="author" content="Caroline Clarke">
+    <title>2026 Student Election Ballot</title>
+
+    <!--
+    AI Use Disclosure:
+    Tool(s): ChatGPT (Plus version)
+    Purpose: Explained Bootstrap, provided HTML and CSS code suggestions,
+    assisted with troubleshooting, and helped summarize AI usage.
+    Human Role: Implemented the code, made design decisions,
+    selected and modified suggestions, and validated the website.
+    -->
+
+   <!-- Bootstrap v5.3.8 -->
+   <!-- LOAD BOOTSTRAP CSS - DO NOT DELETE -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+   <!-- END LOADING BOOTSTRAP CSS -->
+    
+   <!-- Custom styles - add your own CSS to this stylesheet -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">
+              Blue Mountain University
+          </a>
+
+          <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="index.html">Ballot</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="mayathompson.html">Maya Thompson</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="ethanbrooks.html">Ethan Brooks</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="oliviabennett.html">Olivia Bennett</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="jacksonreed.html">Jackson Reed</a>
+                  </li>
+              </ul>
+          </div> <!-- end nav collapse -->
+      </div> <!-- end nav div -->
+  </nav>
+
+    
+      <div class="container" id="main">
+
+          <header class="row">
+              <div class="col-12 text-center">
+                  <h1>2026 Student Election Ballot</h1>
+                  <h2 class="tagline">YOUR CAMPUS. YOUR VOICE.</h2>
+                  <p>Cast your vote in the 2026 Student Body Election. Select your preferred candidate for each position and submit your ballot when complete.</p>
+              </div> <!-- end header -->
+          </header>
+
+          <main>
+              <form>
+
+                  <div class="row g-4">
+                      <section class="col-12 col-md-6">
+                          <div class="card h-100">
+                              <div class="card-header">
+                                  <h2>STUDENT BODY PRESIDENT</h2>
+                              </div> <!-- end president card header -->
+
+                              <div class="card-body">
+                                  <p>Below are the candidates running for Student Body President. Click on a candidate’s name to learn more about them. Once you’ve reviewed the candidates, cast your vote below.</p>
+                                  <p class="candidate">1. <a href="mayathompson.html">Maya Thompson</a></p>
+                                  <p class="candidate">2. <a href="ethanbrooks.html">Ethan Brooks</a></p>
+                                  <h3>Select your choice for Student Body President</h3>
+
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="president" id="maya" value="Maya Thompson" required>
+                                      <label class="form-check-label" for="maya">
+                                          Maya Thompson
+                                      </label>
+                                  </div> <!-- end Maya form --> 
+
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="president" id="ethan" value="Ethan Brooks">
+                                      <label class="form-check-label" for="ethan">
+                                          Ethan Brooks
+                                      </label>
+                                  </div> <!-- end Ethan form --> 
+
+                                </div> <!-- end president card body -->
+                          </div> <!-- end president card header section--> 
+                      </section>
+
+
+                      <section class="col-12 col-md-6">
+                          <div class="card h-100">
+                              <div class="card-header">
+                                  <h2>STUDENT BODY VICE PRESIDENT</h2>
+                              </div> <!-- end vp card header -->
+
+                              <div class="card-body">
+                                  <p>Below are the candidates running for Student Body Vice President. Click on a candidate’s name to learn more about them. Once you’ve reviewed the candidates, cast your vote below.</p>
+                                  <p class="candidate">1. <a href="oliviabennett.html">Olivia Bennett</a></p>
+                                  <p class="candidate">2. <a href="jacksonreed.html">Jackson Reed</a></p>
+                                  <h3>Select your choice for Student Body Vice President</h3>
+                                  
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="vicepresident" id="olivia" value="Olivia Bennett" required>
+                                      <label class="form-check-label" for="olivia">
+                                          Olivia Bennett
+                                      </label>
+                                  </div> <!-- end Olivia form -->
+
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="vicepresident" id="jackson" value="Jackson Reed">
+                                      <label class="form-check-label" for="jackson">
+                                          Jackson Reed
+                                      </label>
+                                  </div> <!-- end Jackson form -->
+
+                              </div> <!-- end vp card body -->
+                          </div> <!-- end vp card header section -->
+                      </section>
+                  </div> <!-- end election roles --> 
+
+
+
+
+                  <div class="row mt-4">
+                    <div class="col-12 text-center" id="review">
+
+                        <button type="submit" class="btn btn-primary btn-lg px-4">
+                            Submit Ballot
+                        </button>
+
+                        <button type="reset" class="btn btn-outline-secondary btn-lg px-4">
+                            Reset Ballot
+                        </button>
+
+                        <div class="alert alert-warning mt-3" role="alert">
+                            Please review your selections carefully before submitting your ballot.
+                        </div> <!-- end review section text -->
+
+                    </div> <!-- end review section -->
+                  </div> <!-- end review section row -->
+
+
+
+              </form>
+          </main>
+
+          <footer class="row">
+              <div class="col-12">
+                  <p>&copy; 2026 Blue Mountain University</p>
+              </div> <!-- end university name --> 
+          </footer>
+
+      </div> <!--end student election ballot -->
+
+<!-- LOAD BOOTSTRAP JAVASCRIPT - DO NOT DELETE -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<!-- END LOADING BOOTSTRAP JAVASCRIPT -->
+      
+  </body>
+</html>

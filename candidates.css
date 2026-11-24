@@ -1,0 +1,127 @@
+
+body {
+    background-image: url(photos/campus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Georgia, serif;
+    color: #072b49;
+}
+
+#main {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 40px auto;
+    padding: 40px 20px 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    line-height: 1.2;
+}
+
+h4 {
+    color: #587492;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.candidate-info {
+    display: flex;
+    gap: 40px;
+}
+
+.candidate-info img {
+    width: 35%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.details {
+    flex: 1;
+}
+
+h2 {
+    background-color: #F2EFEA;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 15px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+p, li {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.return {
+    display: block;
+    background-color: #344f65;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    padding: 15px;
+    margin: 30px auto;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.return:hover {
+    background-color: #587492;
+}
+
+footer {
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer p {
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #587492;
+}
+
+/* Bootstrap Navbar Customizations */
+
+.navbar {
+    background-color: #344f65;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar li {
+    font-size: 16px;
+}
+
+@media (max-width: 767px) {
+    .candidate-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .candidate-info img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#jackson-photo {
+    object-position: center top;
+}
